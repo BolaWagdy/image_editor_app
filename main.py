@@ -660,13 +660,15 @@ class ImageEditorApp(ctk.CTk):
             # Adjust layout
             self.hist_figure.tight_layout()
             
-            # Refresh the canvas
+            # Refresh the canvas here
             self.hist_canvas.draw()
             
     def clear_histogram(self):
         """Clear the histogram display"""
         self.hist_figure.clear()
         self.hist_canvas.draw()
+
+        
 
 if __name__ == "__main__":
     app = ImageEditorApp()
