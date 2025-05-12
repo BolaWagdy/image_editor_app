@@ -28,7 +28,7 @@ Screenshot of the UI
 
 | Main Interface                  |  
 | :-----------------------------: |
-| ![Screenshot of Main UI](photos/mainui.png)    | 
+| ![Screenshot of Main UI](photos/gui.png)    | 
 
 
 ## ⚙️ Installation
