@@ -668,8 +668,6 @@ class ImageEditorApp(ctk.CTk):
         self.hist_figure.clear()
         self.hist_canvas.draw()
 
-        
-
 if __name__ == "__main__":
     app = ImageEditorApp()
     app.mainloop()
