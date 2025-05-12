@@ -59,10 +59,33 @@ Screenshot of the UI
 
 ## 📋 Requirements
 
-*   Python 3.x
-*   See `requirements.txt` for specific libraries:
-    *   `customtkinter`
-    *   `opencv-python`
-    *   `numpy`
-    *   `Pillow`
-    *   `matplotlib`
+| Library         | Purpose                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| `customtkinter`| Modern and customizable alternative to standard `tkinter` for GUI design|
+| `tkinter`      | Standard GUI toolkit included with Python                              |
+| `Pillow`       | Image processing (resizing, format conversion, etc.)                   |
+| `numpy`        | Numerical computing, used for matrix operations                        |
+| `opencv-python`| Computer vision library for image processing and effects              |
+| `matplotlib`   | Plotting histograms and visual elements within the GUI                 |
+
+---
+
+## 📦 Installation Instructions
+
+You can install all necessary dependencies with the following command:
+
+```bash
+pip install customtkinter pillow numpy opencv-python matplotlib
+````
+
+# 📌 Project Dependencies
+
+This document lists all required Python libraries for running the **Image Editor Application** built with `customtkinter`, `OpenCV`, and other image-processing utilities.
+
+---
+
+> 💡 `tkinter` is part of the standard Python distribution. If not available, install it via your OS package manager:
+>
+> * **Windows**: Included by default
+> * **Ubuntu/Debian**: `sudo apt install python3-tk`
+> * **macOS**: Included by default with Python
